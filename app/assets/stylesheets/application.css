@@ -14,7 +14,6 @@
  *= require_self
  */
 
-
 html {
     width: 100%;
 }
@@ -24,7 +23,6 @@ body {
 }
 
 /* HEADER */
-
 
 .navigation {
     display: flex;
@@ -303,6 +301,7 @@ body {
 .footertextsub:hover {
     text-decoration: underline;
 }
+
 .footerlastext {
     cursor: pointer;
     color: #333333;
@@ -360,4 +359,209 @@ body {
     border-right: 1px solid #E5E5E6;
     margin-left: 20px;
     margin-right: 20px;
+}
+
+.article {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.debut {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.line-separator-debut {
+    width: 100%;
+    height: 0.1em;
+    border-bottom: 1px solid black;
+    margin: 20px 0 5px 0;
+}
+
+.theme {
+    margin-bottom: 40px;
+}
+
+.themetxt {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.titletxt {
+    font-style: italic;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 'Slabo 27px', serif;
+}
+
+.line-separator-second {
+    width: 100%;
+    height: 0.1em;
+    border-bottom: 1px solid #E5E5E6;
+    margin: 20px 0 10px 0;
+}
+
+.author {
+    margin-bottom: 20px;
+}
+
+.authortxt {
+    font-style: italic;
+    font-size: 10px;
+}
+
+#imgart {
+    width: 100%;
+}
+
+.resume {
+    width: 60%;
+}
+
+.resumetxt {
+    font-size: 13px;
+    color: #333333;
+}
+
+.corps {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+}
+
+.corps1 {
+    width: 50%;
+    margin-left: 10%;
+}
+
+.corps1txt {
+    color: #333333;
+    font-family: 'Slabo 27px', serif;
+    font-size: 17px;
+}
+
+.corps2 {
+    width: 30%;
+    margin-left: 5%;
+    margin-top: 15%;
+}
+
+.corps2title {
+    margin-bottom: 3%;
+    cursor: pointer;
+}
+
+.corps2titletxt {
+    font-weight: bold;
+    font-size: 11px;
+    color: #6B8BA5;
+}
+
+.comments {
+    cursor: pointer;
+}
+
+.commentitle {
+    font-weight: bold;
+    color: black;
+    font-size: 12px;
+    margin-right: 5%;
+}
+
+.commentdate {
+    color: #6B8BA5;
+    font-size: 12px;
+}
+
+.commenttxt {
+    color: #333333;
+    font-size: 11px;
+}
+
+.seeall {
+    cursor: pointer;
+}
+
+.seeallcomments {
+    color: #6B8BA5;
+    font-size: 11px;
+}
+
+.corps3 {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.corps3title,
+.corps3resume,
+.bordel,
+.corps3author,
+.line-separator-third {
+    width: 80%;
+}
+
+.line-separator-third {
+    height: 0.1em;
+    border-bottom: 1px solid #E5E5E6;
+    margin: 20px 0 10px 0;
+}
+
+.corps3titletxt {
+    font-weight: bold;
+    color: #333333;
+    font-family: 'Slabo 27px', serif;
+    font-size: 20px;
+}
+
+.corps3resumetxt {
+    color: #333333;
+    font-family: 'Slabo 27px', serif;
+    font-size: 16px;
+}
+
+.corps3author {
+    color: #6B8BA5;
+    font-size: 11px;
+}
+
+.bordel {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-top: 2%;
+    background-image: image-url("ill1.png");
+    background-position: center;
+}
+
+.bordel1 {
+    width: 25%;
+    padding: 5px;
+    margin-bottom: 5%;
+}
+
+.bordelimg {
+    width: 100%;
+    margin-top: 5px;
+}
+
+.bordeltitle {
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.bordeltxt {
+    font-size: 11px;
+}
+
+.bordel2 {
+    height: 150px;
+    margin-top: 75px;
+    overflow: hidden;
 }
