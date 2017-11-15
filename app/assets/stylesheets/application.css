@@ -13,3 +13,351 @@
  *= require_tree .
  *= require_self
  */
+
+
+html {
+    width: 100%;
+}
+
+body {
+    margin: 45px 0 0 0;
+}
+
+/* HEADER */
+
+
+.navigation {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    border-bottom: 1px solid #E5E5E6;
+}
+
+.div1 {
+    width: 315px;
+    height: 45px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+
+.div2 {
+    height: 45px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    text-align: center;
+    margin: 0 10px;
+}
+
+#nyt-name {
+    width: 200px;
+}
+
+.div3 {
+    width: 315px;
+    height: 45px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+}
+
+.div4,
+.div7 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.div5 {
+    width: 15px;
+    right: 0;
+    margin-right: 10px;
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.div6 {
+    width: 100px;
+    left: 0;
+    margin-right: 5px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.topbutton1 {
+    display: inline-flex;
+    flex-direction: row;
+    background-color: #6B8BA5;
+    text-align: center;
+    vertical-align: middle;
+    height: 17px;
+    min-width: 90px;
+    padding: 5px 10px;
+    margin: 0 5px;
+    border: 1px solid #4D7B9F;
+    border-radius: 4px;
+}
+
+.topbutton2 {
+    display: inline-flex;
+    flex-direction: row;
+    background-color: #6B8BA5;
+    vertical-align: middle;
+    height: 17px;
+    min-width: 40px;
+    padding: 5px 10px;
+    margin: 0 5px;
+    border: 1px solid #4D7B9F;
+    border-radius: 4px;
+}
+
+.topbutton1:hover,
+.topbutton2:hover {
+    background-color: #326891;
+}
+
+.topbutton3 {
+    display: inline-flex;
+    flex-direction: row;
+    text-align: center;
+    vertical-align: middle;
+    height: 17px;
+    min-width: 45px;
+    padding: 5px 10px;
+    margin: 0 5px;
+}
+
+.topbutton4 {
+    display: inline-flex;
+    flex-direction: row;
+    text-align: center;
+    vertical-align: middle;
+    height: 17px;
+    min-width: 50px;
+    padding: 5px 10px;
+    margin: 0 5px;
+}
+
+.topbutton5 {
+    display: inline-flex;
+    flex-direction: row;
+    text-align: center;
+    vertical-align: middle;
+    height: 17px;
+    min-width: 50px;
+    padding: 5px 10px;
+    margin: 0 5px;
+    border: 1px solid #E5E5E6;
+    border-radius: 2px;
+}
+
+.topbutton3:hover,
+.topbutton4:hover,
+.topbutton5:hover {
+    background-color: #EEEEEC;
+}
+
+
+.menulinks {
+    text-decoration: none;
+    font-weight: bold;
+    color: #FCFCFC;
+    font-size: 11px;
+}
+
+.menulink {
+    text-decoration: none;
+    font-weight: bold;
+    color: #333333;
+    font-size: 11px;
+}
+
+#settings,
+#nyt-logo,
+#loupe,
+#burger {
+    height: 15px;
+}
+
+#nyt-logo,
+#loupe,
+#burger {
+    padding-right: 10px;
+}
+
+@media screen and (max-width: 600px) {
+
+    .div4,
+    .div7,
+    .footermenu {
+        display: none;
+    }
+
+
+
+}
+
+@media screen and (max-width: 800px) {
+
+    .topbutton1,
+    .topbutton3 {
+        display: none;
+    }
+
+}
+
+/* FOOTER */
+
+.footer {
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.line-separator {
+    width: 80%;
+    height: 0.1em;
+    border-bottom: 1px solid #E5E5E6;
+}
+
+.line-separator-vertical {
+    height: 80%;
+    width: 0.1em;
+    border-right: 1px solid #E5E5E6;
+}
+
+#nyt-name-footer {
+    width: 200px;
+}
+
+.foot1 {
+    width: 80%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footerlink,
+.footerlink:hover,
+.footerlink:visited,
+.footerlink:active {
+    text-decoration: none;
+    font-size: 12px;
+    color: #2D76DC;
+}
+
+.foot2 {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    width: 80%;
+}
+
+.foot3 {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+.footermenu {
+    width: 15%;
+}
+
+#footermenusub {
+    margin-left: 10px;
+}
+
+.footertitles {
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.footertext {
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.footertextsub {
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.footertextmini {
+    font-size: 10px;
+    cursor: pointer;
+}
+
+.footertextmini:hover,
+.footertext:hover,
+.footertextsub:hover {
+    text-decoration: underline;
+}
+.footerlastext {
+    cursor: pointer;
+    color: #333333;
+    font-size: 9px;
+}
+
+.line-separator-vertical2 {
+    height: 80%;
+    width: 0.1em;
+    border-right: 1px solid #E5E5E6;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/* INDEX */
+
+.headheader {
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #E5E5E6;
+}
+
+.headitems {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    word-break: break-all;
+    width: 20%;
+    height: 100%;
+    margin: 0 10px;
+    vertical-align: middle;
+    overflow: hidden;
+}
+
+.squareimg {
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+}
+
+.squaretxt {
+    color: #333333;
+    font-size: 13px;
+}
+
+.line-separator-vertical3 {
+    height: 80%;
+    width: 0.1em;
+    border-right: 1px solid #E5E5E6;
+    margin-left: 20px;
+    margin-right: 20px;
+}
