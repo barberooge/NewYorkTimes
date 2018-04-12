@@ -536,7 +536,7 @@ body {
     flex-direction: row;
     flex-wrap: nowrap;
     margin-top: 2%;
-    background-image: image-url("ill1.png");
+    background-image: url("ill1.png");
     background-position: center;
 }
 
